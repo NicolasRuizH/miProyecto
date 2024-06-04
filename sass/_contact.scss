@@ -1,0 +1,57 @@
+.contacto{
+  width: 100%;
+  display: flex;
+  border-top: .1rem solid rgb(91, 223, 228);
+}
+
+.contactoLeft{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  padding-left: 10%;
+  h1{
+    color: aliceblue;
+    width: 70%;
+  }
+  h2{
+    color: rgb(51, 103, 105);
+    text-align: center;
+  }
+  p{
+    width: 70%;
+  }
+}
+
+.contactoRight{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-right: 10%;
+  h1{
+    color: rgb(91, 223, 228);
+    text-shadow: 0 2px 5px rgb(122, 171, 176); 
+    font-size: 2.5rem;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  ul{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    a{
+      color: rgb(51, 103, 105);
+      text-decoration: none;
+      transition: all ease-in-out .2s;
+      &:hover{
+        color: rgb(91, 223, 228);
+        transform: scale(1.05);
+      }
+    }
+  }
+}

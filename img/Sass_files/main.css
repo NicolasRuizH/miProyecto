@@ -1,0 +1,166 @@
+header {
+  height: 10rem;
+}
+
+.navbar {
+  width: 100%;
+  background-color: rgb(62, 123, 125);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 0.5rem;
+  position: fixed;
+  z-index: 50;
+  border-bottom: 0.1rem solid rgb(91, 223, 228);
+}
+
+.navbar-menu {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+
+.navbar-item {
+  list-style: none;
+}
+.navbar-item a {
+  color: black;
+}
+.navbar-item a:hover {
+  color: rgb(91, 223, 228);
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    height: 2rem;
+    width: 100%;
+  }
+  .navbar {
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 6rem;
+    background-color: rgb(62, 123, 125);
+  }
+  .navbar-menu {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .photoPart {
+    margin-top: 0s;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+  }
+  .photoPart .textPhoto {
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 4rem;
+  }
+  .photoPart .textPhoto p {
+    text-align: center;
+  }
+  .photoPart .picPhoto {
+    width: 20%;
+  }
+  .navbar-brand {
+    width: 150px;
+    display: flex;
+    justify-content: end;
+  }
+}
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  row-gap: 1rem;
+  background-color: rgb(62, 123, 125);
+  margin: 1rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 250px;
+  box-shadow: 2px 3px 2px gray;
+  opacity: 0.7;
+  transition: all ease-in-out 0.2s;
+}
+.card:hover {
+  transform: scale(1.01);
+  opacity: 1;
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  border-radius: 1rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  color: white;
+}
+.card-content a {
+  color: rgb(91, 223, 228);
+}
+
+main {
+  background-color: rgb(115, 162, 163);
+}
+
+.photoPart {
+  padding-top: 2rem;
+  text-align: center;
+}
+.photoPart .textPhoto p {
+  font-size: 1.5rem;
+  padding: 1.5rem;
+}
+.photoPart .textPhoto h1 {
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.photoPart .picPhoto {
+  background-color: rgb(115, 162, 163);
+  width: 100%;
+  height: 35rem;
+  text-align: center;
+}
+.photoPart .picPhoto .myPhoto {
+  background-image: url(../img/11erplanoEnd.png);
+  height: 100%;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: contain;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center center;
+  border-radius: 2rem;
+}/*# sourceMappingURL=main.css.map */

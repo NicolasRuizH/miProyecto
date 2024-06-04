@@ -1,0 +1,34 @@
+.contenedorSobreMi{
+  width: 93%;
+  background-color: rgb(62, 123, 125);
+  display: flex;
+  justify-content: center;
+  font-family: Poppins, sans-serif;
+  padding-bottom: 30px;
+  padding-left: 7%;
+ }
+
+ .sobreMiTexto{
+  max-width: 80%;
+  color: rgb(251, 251, 251);
+ }
+
+ .sobreMiTitulo{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  h1{
+    width: 50%;
+    // text-align: center;
+    display: flex;
+    align-items: center;
+    color: rgb(91, 223, 228);
+    
+  }
+
+  img{
+    width: 10%;
+
+  }
+ }
+
